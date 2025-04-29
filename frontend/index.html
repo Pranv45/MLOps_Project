@@ -1,197 +1,185 @@
-<!-- frontend/index.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>IPL Win Predictor</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 50px;
-            background-color: #f2f2f2;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            max-width: 500px;
-            margin: auto;
-            box-shadow: 0px 0px 10px 0px grey;
-        }
-        input, select, button {
-            width: 100%;
-            padding: 10px;
-            margin: 10px 0px;
-        }
-        button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>IPL Win Predictor</title>
+  <style>
+    body { font-family: Arial; margin:50px; background:#f2f2f2 }
+    .container { background:#fff; padding:30px; border-radius:10px; max-width:500px; margin:auto; box-shadow:0 0 10px gray }
+    input, select, button { width:100%; padding:10px; margin:10px 0 }
+    button { background:#4CAF50; color:#fff; border:none }
+  </style>
 </head>
 <body>
-
 <div class="container">
-    <h2>IPL Win Predictor</h2>
+  <h2>IPL Win Predictor</h2>
+  <form id="predictForm">
+    <label>Batting Team</label>
+    <select id="batting_team">
+      <option>Royal Challengers Bengaluru</option>
+      <option>Mumbai Indians</option>
+      <option>Kolkata Knight Riders</option>
+      <option>Rajasthan Royals</option>
+      <option>Chennai Super Kings</option>
+      <option>Sunrisers Hyderabad</option>
+      <option>Delhi Capitals</option>
+      <option>Punjab Kings</option>
+      <option>Lucknow Super Giants</option>
+      <option>Gujarat Titans</option>
+    </select>
 
-    <form id="predictForm">
-        <label>Batting Team</label>
-        <select id="batting_team">
-            <option>Royal Challengers Bengaluru</option>
-            <option>Mumbai Indians</option>
-            <option>Kolkata Knight Riders</option>
-            <option>Rajasthan Royals</option>
-            <option>Chennai Super Kings</option>
-            <option>Sunrisers Hyderabad</option>
-            <option>Delhi Capitals</option>
-            <option>Punjab Kings</option>
-            <option>Lucknow Super Giants</option>
-            <option>Gujarat Titans</option>
+    <label>Bowling Team</label>
+    <select id="bowling_team">
+      <option>Royal Challengers Bengaluru</option>
+      <option>Mumbai Indians</option>
+      <option>Kolkata Knight Riders</option>
+      <option>Rajasthan Royals</option>
+      <option>Chennai Super Kings</option>
+      <option>Sunrisers Hyderabad</option>
+      <option>Delhi Capitals</option>
+      <option>Punjab Kings</option>
+      <option>Lucknow Super Giants</option>
+      <option>Gujarat Titans</option>
+    </select>
 
-        </select>
+    <label>City</label>
+    <select id="city">
+      <option>Chennai</option><option>Delhi</option><option>Kolkata</option>
+      <option>Mumbai</option><option>Bengaluru</option><option>Hyderabad</option>
+      <option>Ahmedabad</option><option>Lucknow</option><option>Jaipur</option>
+      <option>Pune</option>
+    </select>
 
-        <label>Bowling Team</label>
-        <select id="bowling_team">
-            <option>Royal Challengers Bengaluru</option>
-            <option>Mumbai Indians</option>
-            <option>Kolkata Knight Riders</option>
-            <option>Rajasthan Royals</option>
-            <option>Chennai Super Kings</option>
-            <option>Sunrisers Hyderabad</option>
-            <option>Delhi Capitals</option>
-            <option>Punjab Kings</option>
-            <option>Lucknow Super Giants</option>
-            <option>Gujarat Titans</option>
-        </select>
+    <label>Match Type</label>
+    <select id="match_type">
+      <option>League</option><option>Qualifier 2</option><option>Eliminator</option>
+      <option>Qualifier 1</option><option>Final</option><option>Semi Final</option>
+      <option>Elimination Final</option>
+    </select>
 
-        <label>City</label>
-        <select id="city">
-            <option>Chennai</option>
-            <option>Pune</option>
-            <option>Delhi</option>
-            <option>Kolkata</option>
-            <option>Jaipur</option>
-            <option>Indore</option>
-            <option>Lucknow</option>
-            <option>Chandigarh</option>
-            <option>Mumbai</option>
-            <option>Centurion</option>
-            <option>Dubai</option>
-            <option>Hyderabad</option>
-            <option>Ahmedabad</option>
-            <option>Abu Dhabi</option>
-            <option>Bengaluru</option>
-            <option>Port Elizabeth</option>
-            <option>Kimberley</option>
-            <option>Ranchi</option>
-            <option>Sharjah</option>
-            <option>East London</option>
-            <option>Dharamsala</option>
-            <option>Johannesburg</option>
-            <option>Durban</option>
-            <option>Nagpur</option>
-            <option>Mohali</option>
-            <option>Cuttack</option>
-            <option>Cape Town</option>
-            <option>Navi Mumbai</option>
-            <option>Raipur</option>
-            <option>Guwahati</option>
-            <option>Bangalore</option>
-            <option>Visakhapatnam</option>
-            <option>Bloemfontein</option>
+    <label>Toss Winner</label>
+    <select id="toss_winner">
+      <option>Royal Challengers Bengaluru</option>
+      <option>Mumbai Indians</option>
+      <option>Kolkata Knight Riders</option>
+      <option>Rajasthan Royals</option>
+      <option>Chennai Super Kings</option>
+      <option>Sunrisers Hyderabad</option>
+      <option>Delhi Capitals</option>
+      <option>Punjab Kings</option>
+      <option>Lucknow Super Giants</option>
+      <option>Gujarat Titans</option>
+    </select>
 
-        </select>
+    <label>First Innings Score</label>
+    <input type="number" id="total_runs_x" required>
 
-        <label>Match Type</label>
-        <select id="match_type">
-            <option>League</option>
-            <option>Qualifier 2</option>
-            <option>Eliminator</option>
-            <option>Qualifier 1</option>
-            <option>Final</option>
-            <option>Semi Final</option>
-            <option>Elimination Final</option>
-        </select>
+    <label>Required Runs</label>
+    <input type="number" id="required_runs" required>
 
-        <label>Toss Winner</label>
-        <select id="toss_winner">
-            <option>Royal Challengers Bengaluru</option>
-            <option>Mumbai Indians</option>
-            <option>Kolkata Knight Riders</option>
-            <option>Rajasthan Royals</option>
-            <option>Chennai Super Kings</option>
-            <option>Sunrisers Hyderabad</option>
-            <option>Delhi Capitals</option>
-            <option>Punjab Kings</option>
-            <option>Lucknow Super Giants</option>
-            <option>Gujarat Titans</option>
-        </select>
+    <label>Balls Left</label>
+    <input type="number" id="balls_left" required>
 
-        <label>Target Score</label>
-        <input type="number" id="target" required>
+    <label>Wickets Left</label>
+    <input type="number" id="wickets_left" required>
 
-        <label>Current Score</label>
-        <input type="number" id="current_score" required>
+    <button type="submit">Predict</button>
+  </form>
 
-        <label>Balls Left</label>
-        <input type="number" id="balls_left" required>
-
-        <label>Wickets Left</label>
-        <input type="number" id="wickets_left" required>
-
-        <label>Remaining Wickets</label>
-        <input type="number" id="remaining_wickets" required>
-
-        <label>Current Run Rate (CRR)</label>
-        <input type="number" step="0.01" id="crr" required>
-
-        <label>Required Run Rate (RRR)</label>
-        <input type="number" step="0.01" id="rrr" required>
-
-        <button type="submit">Predict</button>
-    </form>
-
-    <h3 id="result"></h3>
+  <h3 id="result"></h3>
 </div>
 
 <script>
-    document.getElementById('predictForm').addEventListener('submit', async function(event) {
-        event.preventDefault();
-
-        const data = {
-            batting_team: document.getElementById('batting_team').value,
-            bowling_team: document.getElementById('bowling_team').value,
-            city: document.getElementById('city').value,
-            match_type: document.getElementById('match_type').value,
-            toss_winner: document.getElementById('toss_winner').value,
-            runs_left: parseInt(document.getElementById('target').value) - parseInt(document.getElementById('current_score').value),
-            balls_left: parseInt(document.getElementById('balls_left').value),
-            wickets_left: parseInt(document.getElementById('wickets_left').value),
-            remaining_wickets: parseInt(document.getElementById('remaining_wickets').value),
-            crr: parseFloat(document.getElementById('crr').value),
-            rrr: parseFloat(document.getElementById('rrr').value),
-            target: parseInt(document.getElementById('target').value)
-        };
-
-        const response = await fetch('http://127.0.0.1:8000/predict', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(data)
-        });
-
-        const result = await response.json();
-        
-        if (result.win_probability !== undefined) {
-            document.getElementById('result').innerText = `Win Probability: ${result.win_probability}%`;
-        } else {
-            document.getElementById('result').innerText = `Error: ${result.error}`;
-        }
+    const battingTeamSelect = document.getElementById('batting_team');
+    const bowlingTeamSelect = document.getElementById('bowling_team');
+  
+    // Disable selected batting team in bowling dropdown
+    battingTeamSelect.addEventListener('change', () => {
+      const selectedBatting = battingTeamSelect.value;
+      Array.from(bowlingTeamSelect.options).forEach(option => {
+        option.disabled = option.value === selectedBatting;
+      });
     });
-</script>
+  
+    document.getElementById('predictForm').addEventListener('submit', async function(event) {
+      event.preventDefault();
+  
+      const total_runs_x  = parseInt(document.getElementById('total_runs_x').value, 10);
+      const required_runs = parseInt(document.getElementById('required_runs').value, 10);
+      const balls_left    = parseInt(document.getElementById('balls_left').value, 10);
+  
+      const current_score = total_runs_x - required_runs;
+      const balls_bowled  = 120 - balls_left;
+      const overs_completed = balls_bowled / 6;
+      const crr = current_score / overs_completed;
+  
+      // ⚠️ Soft Validation
+  
+      if (total_runs_x > 400) {
+        const proceed = confirm(`Warning: First Innings Score (${total_runs_x}) is greater than 400. Are you sure?`);
+        if (!proceed) return;
+      }
+  
+      if (required_runs > 400) {
+        const proceed = confirm(`Warning: Required Runs (${required_runs}) is greater than 400. Are you sure?`);
+        if (!proceed) return;
+      }
+  
+      if (crr > 36) {
+        const proceed = confirm(`Warning: Current Run Rate (CRR) is ${crr.toFixed(2)}, which seems unrealistic. Are you sure you want to continue?`);
+        if (!proceed) return;
+      }
+  
+      // Build payload
+      const payload = {
+        batting_team:  document.getElementById('batting_team').value,
+        bowling_team:  document.getElementById('bowling_team').value,
+        city:          document.getElementById('city').value,
+        match_type:    document.getElementById('match_type').value,
+        toss_winner:   document.getElementById('toss_winner').value,
+        total_runs_x,
+        required_runs,
+        balls_left,
+        wickets_left:  parseInt(document.getElementById('wickets_left').value, 10)
+      };
+  
+      try {
+        const res  = await fetch('http://127.0.0.1:8000/predict', {
+          method:  'POST',
+          headers: {'Content-Type':'application/json'},
+          body:    JSON.stringify(payload)
+        });
+        const json = await res.json();
+        
+        const resultDiv = document.getElementById('result');
 
-</body>
-</html>
+        if (json.message !== undefined) {
+          resultDiv.innerText = json.message;
+
+          if (json.message.includes("Congratulations")) {
+            //  Match already won
+            resultDiv.style.color = 'green';
+          } else {
+            const m = json.message.match(/([0-9.]+)%/);
+            if (m && +m[1] >= 50) {
+              resultDiv.style.color = 'green';
+            } else {
+              resultDiv.style.color = 'red';
+            }
+          }
+
+        } else if (json.error !== undefined) {
+          resultDiv.innerText = `Error: ${json.error}`;
+          resultDiv.style.color = 'red';
+        } else {
+          resultDiv.innerText = 'Unexpected server response!';
+          resultDiv.style.color = 'red';
+        }
+
+      } catch (err) {
+        document.getElementById('result').innerText =
+          `Request failed: ${err.message}`;
+      }
+    });
+  </script>
+  
