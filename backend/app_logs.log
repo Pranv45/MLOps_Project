@@ -128,3 +128,11 @@
 2025-04-29 11:20:10,428 - ERROR - Validation failed: Invalid input: Required runs and wickets left cannot both be zero.
 2025-04-29 11:20:21,731 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=1240 required_runs=0 balls_left=0 wickets_left=0
 2025-04-29 11:20:21,731 - ERROR - Validation failed: Invalid input: Required runs and wickets left cannot both be zero.
+2025-04-29 11:43:03,211 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=123 required_runs=2 balls_left=0 wickets_left=2
+2025-04-29 11:43:03,212 - INFO - Overs completed and Mumbai Indians has won (target not chased).
+2025-04-29 11:43:07,788 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=123 required_runs=1 balls_left=0 wickets_left=2
+2025-04-29 11:43:07,788 - INFO - Match tied! Both teams have equal runs after 20 overs.
+2025-04-29 11:43:11,576 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=123 required_runs=1 balls_left=0 wickets_left=0
+2025-04-29 11:43:11,576 - INFO - Match already won by Mumbai Indians (Batting team all out)
+2025-04-29 11:45:26,713 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=123 required_runs=1 balls_left=0 wickets_left=0
+2025-04-29 11:45:26,713 - INFO - Match tied! Both teams have equal runs after 20 overs.
