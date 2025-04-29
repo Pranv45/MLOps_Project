@@ -1,13 +1,14 @@
 #Import necessary libraries
-from fastapi import FastAPI
-from pydantic import BaseModel
-import pandas as pd
-import pickle
-import uvicorn
 import os
-from fastapi.middleware.cors import CORSMiddleware
+import pickle
 import logging
 import time
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
+from pydantic import BaseModel
+import pandas as pd
+
 
 # Set up logging configuration
 logging.basicConfig(
@@ -60,22 +61,22 @@ def predict(data: MatchInput):
 
         if data.batting_team == data.bowling_team:
             return log_and_return_error("Batting and Bowling team cannot be the same.")
-        
+
         if data.toss_winner not in [data.batting_team, data.bowling_team]:
             return log_and_return_error("Toss winner must be either batting or bowling team.")
-        
+
         if data.required_runs < 0:
             return log_and_return_error("Required runs cannot be negative.")
-        
+
         if not (0 <= data.balls_left <= 120):
             return log_and_return_error("Balls left must be between 0 and 120.")
-        
+
         if not (0 <= data.wickets_left <= 10):
             return log_and_return_error("Wickets left must be between 0 and 10.")
-        
+
         if data.required_runs > data.total_runs_x:
             return log_and_return_error("Required runs cannot be greater than First Innings Total.")
-        
+
         if data.required_runs == 0 and data.wickets_left == 0:
             return log_and_return_error("Invalid input: Required runs and wickets left cannot both be zero.")
 
@@ -86,6 +87,11 @@ def predict(data: MatchInput):
             )
 
         if data.wickets_left == 0:
+            if data.required_runs == 1:
+                return log_and_return_result(
+                    "Match tied! Both teams have equal runs after 20 overs.",
+                    "Match tied! Both teams have equal runs!"
+                )
             return log_and_return_result(
                 f"Match already won by {data.bowling_team} (Batting team all out)",
                 f"All wickets lost! {data.bowling_team} has won the match!"
@@ -97,13 +103,13 @@ def predict(data: MatchInput):
                     "Match tied! Both teams have equal runs after 20 overs.",
                     "Match tied! Both teams have equal runs!"
                 )
-            elif data.required_runs > 0:
+            if data.required_runs > 0:
                 return log_and_return_result(
                     f"Overs completed and {data.bowling_team} has won (target not chased).",
                     f"Overs Completed! {data.bowling_team} has won the match!"
                 )
 
-        #Derive necessary features from the data 
+        #Derive necessary features from the data
         current_score = data.total_runs_x - data.required_runs
         balls_bowled = 120 - data.balls_left
         overs_completed = balls_bowled / 6
