@@ -1,0 +1,130 @@
+2025-04-29 08:53:17,600 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Bengaluru' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=156 required_runs=156 balls_left=120 wickets_left=10
+2025-04-29 08:53:17,600 - INFO - Calculated features: current_score=0, CRR=0.00, RRR=7.80
+2025-04-29 08:53:17,603 - INFO - Predicted Win Probability: 84.01%
+2025-04-29 08:53:17,603 - INFO - Prediction completed in 3.09 ms
+2025-04-29 08:54:04,787 - INFO - Received prediction request: batting_team='Chennai Super Kings' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Chennai Super Kings' total_runs_x=183 required_runs=163 balls_left=100 wickets_left=7
+2025-04-29 08:54:04,788 - INFO - Calculated features: current_score=20, CRR=6.00, RRR=9.78
+2025-04-29 08:54:04,791 - INFO - Predicted Win Probability: 5.41%
+2025-04-29 08:54:04,791 - INFO - Prediction completed in 4.39 ms
+2025-04-29 09:48:49,915 - INFO - Received prediction request: batting_team='Chennai Super Kings' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Chennai Super Kings' total_runs_x=183 required_runs=163 balls_left=100 wickets_left=9
+2025-04-29 09:48:49,916 - INFO - Calculated features: current_score=20, CRR=6.00, RRR=9.78
+2025-04-29 09:48:49,957 - INFO - Predicted Win Probability: 16.59%
+2025-04-29 09:48:49,957 - INFO - Prediction completed in 42.76 ms
+2025-04-29 09:49:00,240 - INFO - Received prediction request: batting_team='Chennai Super Kings' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Chennai Super Kings' total_runs_x=183 required_runs=140 balls_left=100 wickets_left=9
+2025-04-29 09:49:00,240 - INFO - Calculated features: current_score=43, CRR=12.90, RRR=8.40
+2025-04-29 09:49:00,244 - INFO - Predicted Win Probability: 52.57%
+2025-04-29 09:49:00,244 - INFO - Prediction completed in 4.13 ms
+2025-04-29 09:49:15,577 - INFO - Received prediction request: batting_team='Chennai Super Kings' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Chennai Super Kings' total_runs_x=183 required_runs=140 balls_left=100 wickets_left=9
+2025-04-29 09:49:15,577 - INFO - Calculated features: current_score=43, CRR=12.90, RRR=8.40
+2025-04-29 09:49:15,583 - INFO - Predicted Win Probability: 45.36%
+2025-04-29 09:49:15,584 - INFO - Prediction completed in 6.15 ms
+2025-04-29 09:49:22,466 - INFO - Received prediction request: batting_team='Chennai Super Kings' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Chennai Super Kings' total_runs_x=183 required_runs=130 balls_left=100 wickets_left=9
+2025-04-29 09:49:22,466 - INFO - Calculated features: current_score=53, CRR=15.90, RRR=7.80
+2025-04-29 09:49:22,469 - INFO - Predicted Win Probability: 63.66%
+2025-04-29 09:49:22,469 - INFO - Prediction completed in 3.24 ms
+2025-04-29 09:49:28,718 - INFO - Received prediction request: batting_team='Chennai Super Kings' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Chennai Super Kings' total_runs_x=183 required_runs=130 balls_left=100 wickets_left=7
+2025-04-29 09:49:28,718 - INFO - Calculated features: current_score=53, CRR=15.90, RRR=7.80
+2025-04-29 09:49:28,722 - INFO - Predicted Win Probability: 33.51%
+2025-04-29 09:49:28,722 - INFO - Prediction completed in 4.58 ms
+2025-04-29 09:59:06,925 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Chennai Super Kings' total_runs_x=-183 required_runs=130 balls_left=100 wickets_left=7
+2025-04-29 09:59:25,877 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Chennai Super Kings' total_runs_x=183 required_runs=130 balls_left=100 wickets_left=7
+2025-04-29 09:59:26,789 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Chennai Super Kings' total_runs_x=183 required_runs=130 balls_left=100 wickets_left=7
+2025-04-29 10:00:02,658 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=183 required_runs=130 balls_left=100 wickets_left=7
+2025-04-29 10:00:02,658 - INFO - Calculated features: current_score=53, CRR=15.90, RRR=7.80
+2025-04-29 10:00:02,662 - INFO - Predicted Win Probability: 35.72%
+2025-04-29 10:00:02,662 - INFO - Prediction completed in 4.0 ms
+2025-04-29 10:00:07,969 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=-183 required_runs=130 balls_left=100 wickets_left=7
+2025-04-29 10:00:12,603 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=183 required_runs=130 balls_left=100 wickets_left=7
+2025-04-29 10:00:12,603 - INFO - Calculated features: current_score=53, CRR=15.90, RRR=7.80
+2025-04-29 10:00:12,607 - INFO - Predicted Win Probability: 35.72%
+2025-04-29 10:00:12,607 - INFO - Prediction completed in 5.05 ms
+2025-04-29 10:00:18,908 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=183 required_runs=1300 balls_left=100 wickets_left=7
+2025-04-29 10:35:41,106 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=183 required_runs=130 balls_left=100 wickets_left=7
+2025-04-29 10:35:41,108 - INFO - Calculated features: current_score=53, CRR=15.90, RRR=7.80
+2025-04-29 10:35:41,216 - INFO - Predicted Win Probability: 35.72%
+2025-04-29 10:35:41,216 - INFO - Prediction completed in 109.53 ms
+2025-04-29 10:35:58,396 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Royal Challengers Bengaluru' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=111 required_runs=112 balls_left=1 wickets_left=3
+2025-04-29 10:36:07,112 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=111 required_runs=112 balls_left=1 wickets_left=3
+2025-04-29 10:36:13,218 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=111 required_runs=111 balls_left=1 wickets_left=3
+2025-04-29 10:36:13,218 - INFO - Calculated features: current_score=0, CRR=0.00, RRR=666.00
+2025-04-29 10:36:13,225 - INFO - Predicted Win Probability: 0.0%
+2025-04-29 10:36:13,225 - INFO - Prediction completed in 7.27 ms
+2025-04-29 10:36:20,248 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=111 required_runs=0 balls_left=1 wickets_left=3
+2025-04-29 10:36:20,248 - INFO - Calculated features: current_score=111, CRR=5.60, RRR=0.00
+2025-04-29 10:36:20,254 - INFO - Predicted Win Probability: 38.75%
+2025-04-29 10:36:20,254 - INFO - Prediction completed in 5.55 ms
+2025-04-29 10:36:35,339 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=111 required_runs=-4 balls_left=1 wickets_left=3
+2025-04-29 10:36:40,700 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=111 required_runs=1 balls_left=1 wickets_left=3
+2025-04-29 10:36:40,700 - INFO - Calculated features: current_score=110, CRR=5.55, RRR=6.00
+2025-04-29 10:36:40,712 - INFO - Predicted Win Probability: 32.74%
+2025-04-29 10:36:40,712 - INFO - Prediction completed in 12.27 ms
+2025-04-29 10:36:49,725 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=111 required_runs=1 balls_left=10 wickets_left=3
+2025-04-29 10:36:49,726 - INFO - Calculated features: current_score=110, CRR=6.00, RRR=0.60
+2025-04-29 10:36:49,730 - INFO - Predicted Win Probability: 48.84%
+2025-04-29 10:36:49,730 - INFO - Prediction completed in 5.08 ms
+2025-04-29 10:36:54,069 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=111 required_runs=1 balls_left=10 wickets_left=8
+2025-04-29 10:36:54,071 - INFO - Calculated features: current_score=110, CRR=6.00, RRR=0.60
+2025-04-29 10:36:54,076 - INFO - Predicted Win Probability: 95.55%
+2025-04-29 10:36:54,076 - INFO - Prediction completed in 6.39 ms
+2025-04-29 10:37:02,035 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=111 required_runs=0 balls_left=10 wickets_left=5
+2025-04-29 10:37:02,035 - INFO - Calculated features: current_score=111, CRR=6.05, RRR=0.00
+2025-04-29 10:37:02,039 - INFO - Predicted Win Probability: 78.27%
+2025-04-29 10:37:02,039 - INFO - Prediction completed in 3.9 ms
+2025-04-29 10:39:41,564 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=111 required_runs=0 balls_left=10 wickets_left=5
+2025-04-29 10:46:47,445 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=130 required_runs=0 balls_left=10 wickets_left=6
+2025-04-29 10:48:25,751 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=130 required_runs=10 balls_left=10 wickets_left=0
+2025-04-29 10:48:25,751 - INFO - Calculated features: current_score=120, CRR=6.55, RRR=6.00
+2025-04-29 10:48:25,796 - INFO - Predicted Win Probability: 6.55%
+2025-04-29 10:48:25,796 - INFO - Prediction completed in 44.61 ms
+2025-04-29 10:49:59,498 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=130 required_runs=10 balls_left=10 wickets_left=0
+2025-04-29 10:51:13,143 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=130 required_runs=10 balls_left=0 wickets_left=4
+2025-04-29 10:51:13,143 - INFO - Calculated features: current_score=120, CRR=6.00, RRR=0.00
+2025-04-29 10:51:13,161 - INFO - Predicted Win Probability: 37.36%
+2025-04-29 10:51:13,161 - INFO - Prediction completed in 18.0 ms
+2025-04-29 10:52:51,570 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=130 required_runs=5 balls_left=0 wickets_left=4
+2025-04-29 10:56:01,465 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=130 required_runs=5 balls_left=0 wickets_left=4
+2025-04-29 10:56:18,634 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=130 required_runs=1 balls_left=0 wickets_left=4
+2025-04-29 10:56:20,634 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Kolkata Knight Riders' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=130 required_runs=1 balls_left=0 wickets_left=4
+2025-04-29 10:56:38,101 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=1 balls_left=0 wickets_left=1
+2025-04-29 10:57:34,718 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=1 balls_left=0 wickets_left=1
+2025-04-29 10:57:39,803 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=0 balls_left=0 wickets_left=1
+2025-04-29 10:57:46,564 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=4 balls_left=0 wickets_left=1
+2025-04-29 10:57:54,275 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=4 balls_left=3 wickets_left=0
+2025-04-29 11:13:07,044 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=0 balls_left=3 wickets_left=1
+2025-04-29 11:13:07,045 - INFO - Match already won by Royal Challengers Bengaluru (Required Runs = 0)
+2025-04-29 11:13:32,910 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=0 balls_left=3 wickets_left=0
+2025-04-29 11:13:32,910 - INFO - Match already won by Royal Challengers Bengaluru (Required Runs = 0)
+2025-04-29 11:13:59,011 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=0 balls_left=0 wickets_left=1
+2025-04-29 11:13:59,011 - INFO - Match already won by Royal Challengers Bengaluru (Required Runs = 0)
+2025-04-29 11:14:10,945 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=1 balls_left=0 wickets_left=1
+2025-04-29 11:14:10,946 - INFO - Match tied! Both teams have equal runs after 20 overs.
+2025-04-29 11:14:17,187 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=2 balls_left=0 wickets_left=1
+2025-04-29 11:14:17,187 - INFO - Overs completed and Mumbai Indians has won (target not chased).
+2025-04-29 11:16:36,486 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=0 balls_left=4 wickets_left=0
+2025-04-29 11:16:36,487 - ERROR - Validation failed: Invalid input: Required runs and wickets left cannot both be zero.
+2025-04-29 11:17:18,991 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=4 balls_left=4 wickets_left=0
+2025-04-29 11:17:18,991 - INFO - Match already won by Mumbai Indians (Batting team all out)
+2025-04-29 11:17:23,475 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=4 balls_left=0 wickets_left=0
+2025-04-29 11:17:23,476 - INFO - Match already won by Mumbai Indians (Batting team all out)
+2025-04-29 11:17:31,304 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=4 balls_left=0 wickets_left=3
+2025-04-29 11:17:31,305 - INFO - Overs completed and Mumbai Indians has won (target not chased).
+2025-04-29 11:17:39,421 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=0 balls_left=0 wickets_left=3
+2025-04-29 11:17:39,421 - INFO - Match already won by Royal Challengers Bengaluru (Required Runs = 0)
+2025-04-29 11:17:43,573 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=0 balls_left=0 wickets_left=0
+2025-04-29 11:17:43,573 - ERROR - Validation failed: Invalid input: Required runs and wickets left cannot both be zero.
+2025-04-29 11:17:48,556 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=0 balls_left=0 wickets_left=2
+2025-04-29 11:17:48,556 - INFO - Match already won by Royal Challengers Bengaluru (Required Runs = 0)
+2025-04-29 11:18:54,624 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Chennai Super Kings' total_runs_x=120 required_runs=0 balls_left=0 wickets_left=2
+2025-04-29 11:18:54,625 - ERROR - Validation failed: Toss winner must be either batting or bowling team.
+2025-04-29 11:19:05,065 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Royal Challengers Bengaluru' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=120 required_runs=0 balls_left=0 wickets_left=2
+2025-04-29 11:19:05,066 - ERROR - Validation failed: Batting and Bowling team cannot be the same.
+2025-04-29 11:19:25,620 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=0 required_runs=0 balls_left=0 wickets_left=2
+2025-04-29 11:19:25,620 - INFO - Match already won by Royal Challengers Bengaluru (Required Runs = 0)
+2025-04-29 11:19:39,614 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=0 required_runs=1 balls_left=0 wickets_left=2
+2025-04-29 11:19:39,614 - ERROR - Validation failed: Required runs cannot be greater than First Innings Total.
+2025-04-29 11:19:48,645 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=0 required_runs=0 balls_left=0 wickets_left=2
+2025-04-29 11:19:48,645 - INFO - Match already won by Royal Challengers Bengaluru (Required Runs = 0)
+2025-04-29 11:20:10,428 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=0 required_runs=0 balls_left=0 wickets_left=0
+2025-04-29 11:20:10,428 - ERROR - Validation failed: Invalid input: Required runs and wickets left cannot both be zero.
+2025-04-29 11:20:21,731 - INFO - Received prediction request: batting_team='Royal Challengers Bengaluru' bowling_team='Mumbai Indians' city='Chennai' match_type='League' toss_winner='Royal Challengers Bengaluru' total_runs_x=1240 required_runs=0 balls_left=0 wickets_left=0
+2025-04-29 11:20:21,731 - ERROR - Validation failed: Invalid input: Required runs and wickets left cannot both be zero.
